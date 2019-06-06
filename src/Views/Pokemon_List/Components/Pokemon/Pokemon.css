@@ -1,0 +1,53 @@
+.pokemon-card {
+    width: 28%;
+    min-width: 270px;
+    text-align: center;
+    background-image: url('https://bit.ly/2JF9SxD');
+    margin: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #eeeb3b;
+}
+
+.pokemon-sprite {
+    background-image: url(https://bit.ly/2WJkeQX);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: solid;
+    border-color: rgb(216, 185, 11);
+    border-width: 5px;
+    height: 150px;
+    position: relative;
+    width: 75%;
+    margin: auto;
+}
+
+.floater {
+    transform: rotate(-45deg);
+    width: 28px;
+    background-image: url(https://bit.ly/2HoLij6);
+    height: 28px;
+    position: absolute;
+    top: 6px;
+    left: 6px;
+}
+
+.inside {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    background: rgb(216, 185, 11);
+    transform: rotate(45deg);
+    display: flex;
+    justify-content: center;
+    top: -15px;
+    left: -15px;
+}
+
+.main-image {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}

@@ -1,0 +1,16 @@
+
+.App-header {
+    display: flex;
+    background: #D84245;
+    justify-content: space-between;
+    color: #eeeb3b;
+    padding: 20px 40px;
+    font-size: 40px;
+  }
+  
+  .img {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 300px;
+  }

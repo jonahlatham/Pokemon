@@ -1,0 +1,15 @@
+
+.search-box {
+    width: 300px;
+    border-radius: 9px;
+    padding: 2px;
+    font-size: 14px;
+    color: #1a1919;
+    margin: auto;
+    border: solid 1px #1a1919;
+}
+
+.search-box-container {
+    margin: 30px;
+    text-align: center;
+}
